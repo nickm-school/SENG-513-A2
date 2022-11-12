@@ -11,3 +11,163 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  background-color: #bfe4f6;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+.Landing {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 0;
+}
+
+.start-button {
+  font-weight: bold;
+  font-size: large;
+  color: blue;
+  text-decoration: none;
+}
+
+.Game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.new-game {
+  width: 200px;
+  align-self: flex-start;
+}
+
+.mobile-new-game {
+  display: none;
+}
+
+.restart {
+  width: 30px;
+}
+
+.score-board {
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.scores {
+  margin-bottom: 10px;
+  padding: 0 30px;
+  height: 120px;
+  width: max-content;
+  border: 2px solid black;
+}
+
+.board {
+  padding: 10px;
+  height: 320px;
+  width: 320px;
+  border: 2px solid black;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.vertical {
+  padding: 0;
+  height: 75px;
+  width: 5px;
+}
+
+.line {
+  border: 1px solid white;
+  background-color: lightgray;
+}
+
+.line:hover {
+  background-color: aquamarine;
+}
+
+.line:active {
+  background-color: black;
+}
+
+.horizontal {
+  margin: 5.5px;
+  padding: 0;
+  height: 5px;
+  width: 75px;
+}
+
+.vl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.5px;
+  margin-bottom: 5.5px;
+}
+
+#popup {
+  position: fixed;
+  z-index: 1;
+  width: 350px;
+  height: 200px;
+  background-color: #fefefe;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #888;
+  text-align: center;
+}
+
+.close-popup {
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.popup-new-game {
+  justify-self: center;
+}
+
+/* For Mobile */
+@media only screen and (max-width: 600px) {
+  .game-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .new-game {
+    display: none;
+  }
+
+  .mobile-new-game {
+    display: block;
+    align-self: center;
+  }
+
+  .score-board {
+    width: auto;
+  }
+
+  #popup {
+    width: 60%;
+  }
+}
