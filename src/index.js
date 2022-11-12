@@ -10,11 +10,11 @@ import Game from './Game';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/SENG-513-A2",
     element: <Landing />,
   },
   {
-    path: "/game",
+    path: "/SENG-513-A2/game",
     element: <Game />,
   },
 ]);
