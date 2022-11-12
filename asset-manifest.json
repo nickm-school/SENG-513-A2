@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SENG-513-A2/static/css/main.532bc4b9.css",
-    "main.js": "/SENG-513-A2/static/js/main.5b97b4a4.js",
+    "main.js": "/SENG-513-A2/static/js/main.c14134da.js",
     "index.html": "/SENG-513-A2/index.html",
     "static/media/history.svg": "/SENG-513-A2/static/media/history.11f85ef77b55ddd1614c1c64cea0ffac.svg",
     "main.532bc4b9.css.map": "/SENG-513-A2/static/css/main.532bc4b9.css.map",
-    "main.5b97b4a4.js.map": "/SENG-513-A2/static/js/main.5b97b4a4.js.map"
+    "main.c14134da.js.map": "/SENG-513-A2/static/js/main.c14134da.js.map"
   },
   "entrypoints": [
     "static/css/main.532bc4b9.css",
-    "static/js/main.5b97b4a4.js"
+    "static/js/main.c14134da.js"
   ]
 }
